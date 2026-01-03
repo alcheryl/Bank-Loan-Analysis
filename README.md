@@ -1,4 +1,4 @@
-# Bank Loan: Detailed Python/SQL + Power BI + Analysis
+# Bank Loan: Detailed SQL/Python + Power BI + Analysis
 
 ## About this repo
 This repository delivers a comprehensive analysis of **bank loan data**, leveraging **SQL (Python)**, and **Power BI** to transform raw Excel data into actionable business insights. The objective is to evaluate lending performance, loan quality, and portfolio trends through **three dashboards** and a structured analytical report.
@@ -9,27 +9,27 @@ The project follows a clear end-to-end workflow:
 
 ---
 ## Repository contents
-**1.** `problemstatement.pdf`: Describes the business requirement and analytical objectives, clearly specifies:
+**1.** `Problem Statement.pdf`: Describes the business requirement and analytical objectives, clearly specifies:
   * The need for **3 dashboards**, key metrics and dimensions required in each dashboard.
   * Expected analytical outcomes.
 
-**2.** `financial_loan_data_excel.xlxs`: Contains the original bank loan dataset. Serves as the primary input for SQL queries, Python processing, and Power BI visualization.
+**2.** `Bank Loan Data.xlxs`: Contains the original bank loan dataset. Serves as the primary input for SQL queries, Python processing, and Power BI visualization.
 
-**3.** `bankloan.sql`: Acts as the **main and most detailed data processing layer**, includes detailed SQL queries to:
+**3.** `Bank Loan SQL.sql`: Acts as the **main and most detailed data processing layer**, includes detailed SQL queries to:
   * Clean and transform raw data.
   * Aggregate metrics based on dashboard requirements.
   * Export structured datasets for analysis.
 
-**4.** `bankloan.ipynb`: Provides an alternative data processing approach using Python (similar outputs but less detailed than the SQL script).
+**4.** `Bank Loan Python.ipynb`: Provides an alternative data processing approach using Python (similar outputs but less detailed than the SQL script).
 
-**5.** `bankloan.pbix`: Contains all interactive dashboards built according to the problem statement, includes:
+**5.** `Bank Loan Power BI.pbix`: Contains all interactive dashboards built according to the problem statement, includes:
   * Dashboard 1: Summary.
   * Dashboard 2: Overview.
   * Dashboard 3: Details.
 
-**6.** `bankloan_powerbi.pdf`: Static version of the Power BI dashboards, allows easy viewing without Power BI Desktop.
+**6.** `Bank Loan Power BI.pdf`: Static version of the Power BI dashboards, allows easy viewing without Power BI Desktop.
 
-**7.** `analysisreport.pdf`: The final report is structured into **four main sections**:
+**7.** `Analysis Report.pdf`: The final report is structured into **four main sections**:
 * **Chapter 1: Domain Knowledge**: Introduction to bank loans, loan approval process, and the importance of analyzing bank loan data.
 * **Chapter 2: Terminologies in Data**: Explanation of key variables used in the raw dataset. Clarifing what each variable represents and why the bank needs this information for decision-making.
 * **Chapter 3: Data Analysis**: Detailed analysis of all dashboards built in Power BI. Highlighting key trends, risk patterns and performance insights (all findings are supported by data and visuals).
