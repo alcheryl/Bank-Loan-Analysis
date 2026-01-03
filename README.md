@@ -5,7 +5,9 @@ This repository delivers a comprehensive analysis of **bank loan data**, leverag
 
 The objective is to evaluate lending performance, loan quality, and portfolio trends through **three dashboards** and a structured analytical report.
 
-The project follows a clear end-to-end workflow: **Problem Understanding → Data Processing → Dashboard Visualization → Insight & Recommendation**
+The project follows a clear end-to-end workflow: 
+
+**Problem Understanding → Data Processing → Dashboard Visualization → Insight & Recommendation**
 
 ---
 ## Repository contents
